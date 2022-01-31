@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html { 
+    background: url("images/bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+#main {
+    margin: 20px;
+    text-align: center;
+}
+
+#buttonDiv {
+    text-align: center;
+
+}
+
+#container {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+.countryCard {
+    background-image: url("images/cardImage.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 280px;
+    height: 480px;
+    font-size: large;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.countryCard p {
+    padding: 2px;
+    margin: 5px;
+}
+
+.countryCard img {
+    display: block;
+    height: 40%;
+    width: 100%;
+}
+
+.cardInfo {
+    height: 60%;
+}
+
+input {
+    padding: 8px 16px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #4CAF50;
+  }
